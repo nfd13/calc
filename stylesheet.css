@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: ubuntu;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    background-image : url("https://wallpaperset.com/w/full/1/c/c/50007.jpg#.Xrkc9SbU1MM.link");
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+ 
+}
+.calculator{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    height:60px;
+    width:60px;
+    margin:2px;
+    border:none;
+    border-radius:3px;
+    background: #3E617D;
+    color:#fff;
+    font-size:24px;
+    cursor:pointer;
+}
+button:hover{
+    background:#D3D0AD;
+    color: black;
+}
+.textview{
+    width:240px;
+    margin:5px;
+    padding:8px;
+    font-size:24px;
+    border:none;
+    border-radius:3px;
+}
+
+@media all and (max-width: 670px) {
+    body{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+}
+
+@media all and (max-width: 1000px) {
+    body{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+}
+
